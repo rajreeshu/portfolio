@@ -247,10 +247,15 @@ section {
 	width: 95%;
 	margin: 2em auto;
 	padding: 2em;
-	text-align: center;
+	/* text-align: center; */
 	box-shadow: var(--container-shadow);
 	border-radius: 1em;
 }
+
+.project-container div h3{
+	text-align: center;
+}
+
 
 .project-container img{
 	object-fit: cover;
