@@ -252,6 +252,10 @@ section {
 	border-radius: 1em;
 }
 
+.project-container img{
+	object-fit: cover;
+}
+
 .project img {
 	border-radius: 0.5em;
 }
@@ -288,6 +292,10 @@ section {
 
 .project-link {
 	margin-top: 1.2em;
+}
+
+.project-link li{
+	margin: 5px;
 }
 
 .stack-container {
