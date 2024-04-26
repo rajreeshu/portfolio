@@ -630,7 +630,7 @@ Github Link: https://github.com/rajreeshu  -->
 
             console.log(data);
             // document.getElementById("totalProblem").value=data.toltalSolved;
-            $("#totalProblem").text(Math.round(data.totalSolved / 10) * 10 + "+");
+            $("#totalProblem").text(Math.floor(data.totalSolved/10)*10  + "+");
 
         },
         error: function (err) {
