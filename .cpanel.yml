@@ -3,6 +3,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ezyitias/reeshu/projectgallery/portfolio
-    - if [ -d "$DEPLOYPATH" ]; then echo "Deployment path exists."; else echo "Creating deployment path."; mkdir -p $DEPLOYPATH; fi
-    - /bin/cp -R * $DEPLOYPATH || { echo "Copy failed"; exit 1; }
-    - echo "Deployment completed successfully."
+    - /bin/cp -R * $DEPLOYPATH
